@@ -1,4 +1,4 @@
-baseurl = "http://hugo.spf13.com/"
+baseurl = "https://github.com/krista805/blog.git"
 languageCode = "en-us"
 title = "Hugo Future Imperfect"
 theme = "hugo-future-imperfect"
