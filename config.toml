@@ -1,116 +1,114 @@
-baseurl = ""
+# Site settings
+baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Hugo Future Imperfect"
-theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
-paginate = 3
-disqusShortname = "shortname"
-googleAnalytics = ""
+title = "Freelance Web Developer"
+theme = "hugo-artists-theme"
 
 [params]
-    # Sets the meta tag description, usually reserved for the main page
-    description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
-    # This will appear on the top left of the navigation bar
-    navbarTitle          = "Future Imperfect"
-    # Social media buttons that appear on the sidebar
-    socialAppearAtTop    = true
-    socialAppearAtBottom = true
-    # set this to the section name if section is not post
-    viewMorePostLink     = "/blog/"
 
-# Optional Params
-    categoriesByCount    = true
-    includeReadingTime   = true
-    # The set of favicons used are based on the write-up from this link:
-    # https://github.com/audreyr/favicon-cheat-sheet
-    # Please see the favicon partial template for more information
-    loadFavicon          = false
-    faviconVersion       = ""
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
 
-    # Load custom CSS or JavaScript files. This replaces the deprecated params
-    # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
-    # can load multiple files if necessary. You can also load the standard theme
-    # files by adding the value, "default".
-    # customCSS            = ["default", "/path/to/file"]
-    # customJS             = ["default", "/path/to/file"]
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Krista Simmons - Web Developer || UX Designer"
+	description = "Krista Simmons is a freelance web developer, designer, SEO consultant, digital marketer and music lover in San Diego. Contact her here to work together."
 
-    # Loading min files for exampleSite
-    customCSS            = ["/css/main.min.css"]
-    customJS             = ["/js/main.min.js"]
+	# Since this template is static, the contact form uses www.formspree.io as a
+	# proxy. The form makes a POST request to their servers to send the actual
+	# email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+	email = "kristasimmons.design@gmail.com"
 
-# parms.intro will appear on the sidebar
-# This is optional, but it's suggested to use
-[params.intro]
-    header    = "Hugo Future Imperfect"
 
-    paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
+	# Header an navigation
+	#
+	# To change the header background the 'hero-bg-jpg' at 'static/img'.
+	# Do the same with the logo ('logo.svg').
+	# But keep the original filename!
+	[params.header]
+		title = "Krista Simmons"
+		shortBio = "Developer // Designer // Digital Marketer"
 
-    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
-# This will also appear on the sidebar.
-# A width of less than 100px is recommended
-# This is optional
-[params.intro.pic]
-    src       = "/img/main/logo.jpg"
-    # modify your picture in the shape of a circle or
-    # future imperfect's hexagonal shape
-    circle    = false
-    imperfect = true
-    width     = ""
-    alt       = "Hugo Future Imperfect"
+	# About section
+	#
+	# Replace the 'avatar.jpg' under 'static/img' with your own image.
+	[params.about]
+		title = "About me"
+		bio = "**My name is Krista Simmons** I’m a freelance web developer, web designer and digital marketer. My passions lie within music, technology and basically everything involving the internet. My work life is a balance of working full-time at a digital marketing agency and working as a part-time freelance developer. — I find this combination to be super resourceful for all parties involved. My technical skills include web development (with emphasis in WordPress & e-commerce CMS platforms), User Experience (UX) design and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients. Let’s work together."
 
-# Adjust the amount of recent posts on the sidebar.
-# This is optional. The default value 5 will be used
-[params.postAmount]
-    sidebar = 2
+		[[params.about.skills]]
+			name = "Communication"
+			value = 9
 
-# Set up your menu items in the navigation bar
-# You can use identifier to prepend a font awesome icon to your text
-[[menu.main]]
-    name = "Blog"
-    url = "/blog"
-    identifier = "fa fa-newspaper-o"
-    weight = 1
+		[[params.about.skills]]
+			name = "Organization"
+			value = 7
 
-[[menu.main]]
-    name = "Categories"
-    url = "/categories"
-    weight = 2
+		[[params.about.skills]]
+			name = "Learning"
+			value = 10
 
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 3
+		[[params.about.skills]]
+			name = "Teaching"
+			value = 6
 
-# Insert your username and the icon will apear on the page as long as
-# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
-# The social media icons will appear on the sidebar
-[social]
-    github          = "krista805"
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = ""
-    instagram       = ""
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = "krista-simmons"
-    slideshare      = ""
-    stackoverflow   = ""
-    reddit          = ""
-    pinterest       = ""
-    googleplus      = ""
-    facebook        = ""
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = "knsimmons92"
-    email           = "kristasimmons.design@gmail.com"
+		[[params.about.skills]]
+			name = "Planning"
+			value = 7
+
+		[[params.about.skills]]
+			name = "Visual Design"
+			value = 5
+
+		[[params.about.skills]]
+			name = "UX Design"
+			value = 8
+
+		[[params.about.skills]]
+			name = "Programming"
+			value = 6
+
+	# Contact secion
+	[params.contact]
+		title = "Contact"
+
+		# The following social network icons are available:
+		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
+		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
+		[[params.contact.social]]
+			icon = "twitter"
+			link = "//twitter.com/devtipsshow"
+
+		[[params.contact.social]]
+			icon = "dribbble"
+			link = "//dribbble.com/travisneilson"
+
+		[[params.contact.social]]
+			icon = "behance"
+			link = "//www.behance.net/travisneilson"
+
+		[[params.contact.social]]
+			icon = "linkedin"
+			link = "//www.linkedin.com/in/travisneilson"
+
+
+	[params.form]
+		title = "Let's work together"
+		# Form fields
+		name = "Your Name"
+		email = "Your Email"
+		message = "Tell me about your project"
+		buttonText = "Send"
+
+
+	[params.footer]
+		copyright = "Published under the Unlicense License."
