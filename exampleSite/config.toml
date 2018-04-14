@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://example.org/"
 languageCode = "en-us"
-title = "Freelance Web Developer"
+title = "Hugo Artists Theme"
 theme = "hugo-artists-theme"
 
 [params]
@@ -11,8 +11,8 @@ theme = "hugo-artists-theme"
 
 	# To provide some metadata for search engines feel free to add a few
     # information about you and your website.
-	name = "Krista Simmons - Web Developer || UX Designer"
-	description = "Krista Simmons is a freelance web developer, designer, SEO consultant, digital marketer and music lover in San Diego. Contact her here to work together."
+	name = "Your name"
+	description = "Your description"
 
 	# Since this template is static, the contact form uses www.formspree.io as a
 	# proxy. The form makes a POST request to their servers to send the actual
@@ -25,7 +25,7 @@ theme = "hugo-artists-theme"
     # - send a dummy email yourself to confirm your account
     # - click the confirm link in the email from www.formspree.io
     # - you're done. Happy mailing!
-	email = "kristasimmons.design@gmail.com"
+	email = "your@email.com"
 
 
 	# Header an navigation
@@ -34,8 +34,8 @@ theme = "hugo-artists-theme"
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
 	[params.header]
-		title = "Krista Simmons"
-		shortBio = "Developer // Designer // Digital Marketer"
+		title = "Artists Theme"
+		shortBio = "Thinker // Designer // YouTuber"
 
 
 	# About section
@@ -43,7 +43,7 @@ theme = "hugo-artists-theme"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
-		bio = "**My name is Krista Simmons** I’m a freelance web developer, web designer and digital marketer. My passions lie within music, technology and basically everything involving the internet. My work life is a balance of working full-time at a digital marketing agency and working as a part-time freelance developer. — I find this combination to be super resourceful for all parties involved. My technical skills include web development (with emphasis in WordPress & e-commerce CMS platforms), User Experience (UX) design and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients. Let’s work together."
+		bio = "**Travis specializes in making things** for human people. Most of the things he makes are [digital interfaces](//travisneilson.com/), but he also puts effort into crafting [next-level beats](//soundcloud.com/travis-neilson) and [YouTube videos](//youtube.com/user/devtipsfordesigners) about making codes happen."
 
 		[[params.about.skills]]
 			name = "Communication"
@@ -89,8 +89,16 @@ theme = "hugo-artists-theme"
 			link = "//twitter.com/devtipsshow"
 
 		[[params.contact.social]]
+			icon = "dribbble"
+			link = "//dribbble.com/travisneilson"
+
+		[[params.contact.social]]
 			icon = "behance"
 			link = "//www.behance.net/travisneilson"
+
+		[[params.contact.social]]
+			icon = "youtube"
+			link = "//www.youtube.com/DevTipsForDesigners"
 
 		[[params.contact.social]]
 			icon = "linkedin"
