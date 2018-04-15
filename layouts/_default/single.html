@@ -1,19 +1,25 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-  {{ partial "head.html" . }}
-  {{ partial "header.html" . }}
+
+  {{ if eq .Section "blog"}}
+      {{ partial "head.html" . }}
+      {{ partial "header.html" . }}
+      {{ else }}
+  {{ end }}
+
 
   <body>
     <!-- {{ partial "body-top" . }} -->
     <main>
-
       <section class="container">
           <section class="content">
               <h1>{{ if .Params.heading }} {{ .Params.heading }} {{ else }} {{ .Title }} {{ end }}</h1>
 
+            {{ if eq .Section "blog"}}
               <div class="sub-header">
                   {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read
               </div>
+            {{ end }}
 
               <article class="entry-content">
                   {{ .Content }}

@@ -5,41 +5,17 @@
   <!-- End Google Tag Manager (noscript) -->
 {{ end }}
 
-{{ if .IsHome }}
-  <header class="row middle-xs center-xs">
-    <div class="col-xs-12">
-      <div class="row middle-xs center-xs">
-        <div class="col-xs-12"><img src="{{ .Site.Params.logoBig}}" alt="{{ .Site.Title }}"></div>
-      </div>
-      <div class="row middle-xs center-xs">
-        <div class="col-xs-12">
-          <h1>{{ .Site.Params.tagline }}<span class="cursor">|</span></h1>
-        </div>
-      </div>
-    </div>
-  </header>
-{{ end }}
+<!-- {{ if .IsHome }}
+<header id="header">
+    <nav>
+        {{ with .Site.Params.about.title }}<a href="/#about-me">{{ . }}</a>{{ end }}
+        {{ with .Site.Data.work.title }}<a href="/#work">{{ . }}</a>{{ end }}
+        {{ with .Site.Data.clients.title }}<a href="/#clients">{{ . }}</a>{{ end }}
+        {{ with .Site.Params.contact.title }}<a href="/#contact">{{ . }}</a>{{ end }}
+        {{ with .Site.Params.blog.title }}<a href="/#blog">{{ . }}</a>{{ end }}
+    </nav>
+    {{ with .Site.Params.header.title }}<h1><span>{{ . }}</span></h1>{{ end }}
+    {{ with .Site.Params.header.shortBio }}<p class="kicker">{{ . }}</p>{{ end }}
+</header>
 
-<nav class="row middle-xs center-xs">
-  <div class="col-xs-6 col-sm-1 logo">
-    <a href="{{ .Site.BaseURL }}#"><img src="{{ .Site.Params.logoSmall }}" alt="{{ .Site.Title }}"></a>
-  </div>
-    {{ range .Site.Menus.main }}
-      <div class="col-xs-3 col-sm-2">
-        <h3><a href="{{ .URL }}">{{ .Name }}</a></h3>
-      </div>
-    {{ end }}
-  <div class="col-xs-6 col-sm-1 nav-toggle">
-      <a href="" class="nav-icon" onclick="return false"><img src="/images/icon-menu.png" alt="Open Menu"><img src="/images/icon-x.png" alt="Close Menu" style="display: none;"></a>
-  </div>
-</nav>
-
-<section class="nav-full row middle-xs center-xs">
-  <div class="col-xs-12">
-    <div class="row middle-xs center-xs">
-      {{ range .Site.Menus.main }}
-        <div class="col-xs-12"><h1><a href="{{ .URL }}">{{ .Name }}</a></h1></div>
-      {{ end }}
-    </div>
-  </div>
-</section>
+{{ end }} -->

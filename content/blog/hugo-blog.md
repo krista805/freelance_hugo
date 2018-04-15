@@ -12,6 +12,6 @@ Hugo was a great option for my blog primarily because it's lightweight and fast.
 
 I would highly recommend using Hugo for your clients websites, especially if there's no need for any sort of complex eCommerce solution.
 
-In my work, I strive to combine both design and development processes and bridge them together,so the topics I will write about will vary.
+In my work, I strive to combine both design and development processes and bridge them together, so the topics I will write about will vary.
 
 My goal is to share as much knowledge as possible with my fellow designers and developers out there (although I am just starting out haha)! I also find a lot of interest in human computer interaction/ user experience as well as digital marketing so I will post articles and case studies along those topics as well.

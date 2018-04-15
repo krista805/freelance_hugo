@@ -4,4 +4,4 @@ title = "Software Craftsmanship"
 
 +++
 
-![Vue.js](/img/blog/audio-equipment400x250.jpeg)
+![Audio Equipment](/img/blog/audio-equipment400x250.jpeg)

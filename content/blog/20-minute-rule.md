@@ -4,6 +4,8 @@ title = "20 minute rule"
 
 +++
 
+![Clock](/img/blog/clock840x400.jpeg)
+
 For any new programmers who are starting off at their junior developer position or internship, I have some advice: **The 20 Minute Rule** (when to ask for help).
 
 When I first started my web development internship at scientist.com, it was a bit overwhelming. Jumping into a massive codebase and making sure you don’t set anything on fire or bring down the company’s online platform had literally given me nightmares. Once I got over that hump, I ran into a new issue I hadn’t faced before.

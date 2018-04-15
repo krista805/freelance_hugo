@@ -3,15 +3,15 @@
     {{ with .Site.Params.form.title }}<h3 id="form-title">{{ . }}</h3>{{ end }}
     <form method="POST" action="//formspree.io/{{ with .Site.Params.email }}{{ . }}{{ end }}">
         <fieldset class="contact-info-group">
-            {{ with .Site.Params.form.name }}<label><span>{{ . }}</span>{{ end }}
-                <input type="text" name="name">
+            {{ with .Site.Params.form.name }}<label>{{ end }}
+                <input type="text" name="name" placeholder="Your Name">
             </label>
-            {{ with .Site.Params.form.email }}<label><span>{{ . }}</span>{{ end }}
-                <input type="email" name="_replyto">
+            {{ with .Site.Params.form.email }}<label>{{ end }}
+                <input type="email" name="_replyto" placeholder="Your Email">
             </label>
         </fieldset>
-        {{ with .Site.Params.form.message }}<label><span>{{ . }}</span>{{ end }}
-            <textarea name="message"></textarea>
+        {{ with .Site.Params.form.message }}<label>{{ end }}
+            <textarea name="message" placeholder="Tell me about your project"></textarea>
         </label>
         <fieldset class="submit-wrap">
             <input type="submit" value="{{ with .Site.Params.form.buttonText }}{{ . }}{{ end }}">
