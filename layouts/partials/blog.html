@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-xs-12 posts-list">
         {{ range first 5 (where .Data.Pages "Section" "blog") }}
-          <article>
+          <article class="blog-link">
             <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
             <div class=sub-header>
               {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read
@@ -16,7 +16,7 @@
       </div>
     </div>
     <div class="row center-xs">
-      <div class="col-xs-12"><h3><a href="{{ .Site.BaseURL }}/blog/">View All</a></h3></div>
+      <div class="col-xs-12 blog-link"><h3><a href="{{ .Site.BaseURL }}/blog/">View All</a></h3></div>
     </div>
   </div>
 </section>

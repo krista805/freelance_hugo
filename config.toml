@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://example.org/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
@@ -43,6 +43,7 @@ theme = "hugo-artists-theme"
 	# Replace the 'avatar.jpg' under 'static/img' with your own image.
 	[params.about]
 		title = "About me"
+		url= "/#about"
 		bio = "**My name is Krista Simmons** I’m a freelance web developer, web designer and digital marketer. My passions lie within music, technology and basically everything involving the internet. My work life is a balance of working full-time at a digital marketing agency and working as a part-time freelance developer. — I find this combination to be super resourceful for all parties involved. My technical skills include web development (with emphasis in WordPress & e-commerce CMS platforms), User Experience (UX) design and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients. Let’s work together."
 
 		[[params.about.skills]]
@@ -80,6 +81,7 @@ theme = "hugo-artists-theme"
 	# Contact secion
 	[params.contact]
 		title = "Contact"
+		url  = "/#contact"
 
 		# The following social network icons are available:
 		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
@@ -95,6 +97,10 @@ theme = "hugo-artists-theme"
 		[[params.contact.social]]
 			icon = "linkedin"
 			link = "//www.linkedin.com/in/travisneilson"
+
+	[params.blog]
+		title= "Blog"
+		url  = "/#blog"
 
 
 	[params.form]
