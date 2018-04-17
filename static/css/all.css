@@ -729,8 +729,11 @@ footer {
   .face-lockup [class^="icon-"] {
     height: 100px;
     width: 100px;
-    background: #e5eaee;
-    border-radius: 50%; }
+    background: transparent;
+    border-radius: 50%;
+    border: 2px solid #52CCBA;
+}
+
     .face-lockup [class^="icon-"] path {
       fill: #52CCBA; }
     .face-lockup [class^="icon-"].icon-pencil {

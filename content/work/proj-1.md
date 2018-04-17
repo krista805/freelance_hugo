@@ -1,7 +1,8 @@
+
+
+VolunteerUP is an app that connects nonprofit organizations with eager volunteers. Users are able to register as volunteers, search for events in their area, and sign up for events as volunteers. Users are also able to register as organizers that administer their nonprofit organization pages, create a calendar of events, and request volunteers.
+
 ![Typo International](img/work/proj-1/img1.jpg)
-
-TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
-
 ![Typo International](img/work/proj-1/img2.jpg)
 ![Typo International](img/work/proj-1/img3.jpg)
 ![Typo International](img/work/proj-1/img4.jpg)

@@ -3,13 +3,9 @@
     {{ with .Site.Params.contact.title }}<h3 id="contact">{{ . }}</h3>{{ end }}
     <div class="social-links">
         {{ range .Site.Params.contact.social }}
-        <a href="{{ .link }}" class="icon-{{ .icon }}"></a>
+        <a href="{{ .link }}" class="icon-{{ .icon }}" target="_blank" ></a>
         {{ end }}
     </div>
     <hr class="bar">
     <a class="biglink" href="#form-title">{{ .Site.Params.email }}</a>
-    <div class="resume"> <embed src="https://drive.google.com/file/d/13H0s9cCI8fJ-h1awi0m4hcma1GlM9U1d/view?usp=sharing" width="500" height="375">">
-
-	       <a href="{{ .Site.BaseURL }}static/ksimmons_cv2018.pdf"download>Download PDF Version Here</a>
-	</div>
 </section>
