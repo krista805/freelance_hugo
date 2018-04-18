@@ -6,27 +6,27 @@ title = "Work"
     folder = "proj-1"
 
 [[projects]]
-    name = "City-IN website concept"
+    name = "Custom Wordpress Build"
     folder = "proj-2"
 
 [[projects]]
-    name = "Crispy Icons"
+    name = "PHP Blog Template"
     folder = "proj-3"
 
 [[projects]]
-    name = "Flat Mobile UI/UX Concept"
+    name = "Landing Page Design"
     folder = "proj-4"
 
 [[projects]]
-    name = "Fresh It Up"
+    name = "Flat Mobile UI/UX Concept"
     folder = "proj-5"
 
 [[projects]]
-    name = "Timeline Page"
+    name = "Wather Dashboard"
     folder = "proj-6"
 
 [[projects]]
-    name = "Weather Dashboard"
+    name = "jQuery Hi Lo Game"
     folder = "proj-7"
 
 [[projects]]

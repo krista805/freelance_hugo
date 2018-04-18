@@ -1,1 +1,1 @@
-![City In](img/work/proj-2/CityIn-AntonSkvortsov.jpg)
+![Marketing Agency](img/work/proj-2/organikseo_landing.jpg)

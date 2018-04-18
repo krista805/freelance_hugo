@@ -87,12 +87,12 @@ theme = "hugo-artists-theme"
 		# 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin'
 		# 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
 		[[params.contact.social]]
-			icon = "twitter"
-			link = "//twitter.com/devtipsshow"
+			icon = "behance"
+			link = "//www.behance.net/kristasimmons"
 
 		[[params.contact.social]]
-			icon = "behance"
-			link = "//www.behance.net/travisneilson"
+			icon = "github"
+			link = "//github.com/krista805"
 
 		[[params.contact.social]]
 			icon = "linkedin"

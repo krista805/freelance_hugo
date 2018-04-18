@@ -1,1 +1,1 @@
-![Crispy Icons](img/work/proj-3/CrispyIcons-PetrasNargela.jpg)
+![Crispy Icons](img/work/proj-3/pf_blog.jpg)

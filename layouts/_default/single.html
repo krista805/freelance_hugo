@@ -19,28 +19,31 @@
               <div class="sub-header">
                   {{ .Date.Format (.Site.Params.dateform | default "January 2, 2006") }} · {{ .ReadingTime }} minute read
               </div>
-            {{ end }}
-
-              <article class="entry-content">
+              <article class="entry-content blog-single">
                   {{ .Content }}
               </article>
+               {{ else }}
+               <article class="entry-content work">
+                   {{ .Content }}
+               </article>
+            {{ end }}
 
+            {{ if eq .Section "blog"}}
               <div class="pagination">
                   {{ if .PrevInSection }}
-                      <a href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a>
+                      <h4><a href="{{ .PrevInSection.Permalink }}">&laquo; {{ .PrevInSection.Title }}</a></h4>
                   {{ end }}
                   {{ if .NextInSection }}
-                      <a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a>
+                      <h4><a href="{{ .NextInSection.Permalink }}">{{ .NextInSection.Title }} &raquo;</a></h4>
                   {{ end }}
               </div>
+            {{ end }}
           </section>
           <br>
-          {{ partial "disqus" . }}
+          <!-- {{ partial "disqus" . }} -->
       </section>
 
     </main>
-    {{ partial "footer.html" . }}
-    {{ partial "body-bottom" . }}
   </body>
 </html>
 
