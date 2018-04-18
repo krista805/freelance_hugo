@@ -1262,7 +1262,7 @@ form {
     font-size: 16px; }
     form input:focus, form textarea:focus {
       outline: none;
-      border-color: #e1c285; }
+      border-color: #52CCBA; }
   form textarea {
     height: 10em;
     resize: none; }
@@ -1275,7 +1275,10 @@ form {
     text-transform: uppercase;
     width: 33%; }
     form [type="submit"]:hover {
-      background: #e1c285; }
+      background: #ffffff;
+      color:#52CCBA;
+      border:2px solid #52CCBA;
+  }
   form .contact-info-group label {
     width: 50%;
     float: left;

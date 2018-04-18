@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
+{{ partial "head.html" . }}
+{{ partial "header.html" . }}
 
   <body>
-      <!-- {{ partial "header.html" . }} -->
-    {{ partial "body-top" . }}
+    <!-- {{ partial "body-top" . }} -->
     <main>
 
       <section class="blog" id="blog">
@@ -31,3 +32,5 @@
     {{ partial "body-bottom" . }}
   </body>
 </html>
+
+{{ .Content }}

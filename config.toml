@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "/"
+baseurl = ""
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
@@ -35,7 +35,7 @@ theme = "hugo-artists-theme"
 	# But keep the original filename!
 	[params.header]
 		title = "Krista Simmons"
-		shortBio = "Developer // Designer // Digital Marketer"
+		shortBio = " Full STack Web Developer // UX Designer"
 
 
 	# About section
@@ -44,19 +44,19 @@ theme = "hugo-artists-theme"
 	[params.about]
 		title = "About me"
 		url= "/#about"
-		bio = "**My name is Krista Simmons** I’m a freelance web developer, web designer based in San Diego. My passions lie within music, technology and basically everything involving the internet. My technical skills include experience building custom websites for small to medium sized businesses. Currently my toolbelt consists of PHP, HTML, CSS, jQuery, Ruby on Rails and Content Management Systems like Wordpress and Shopify. I also have User Experience (UX) design and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients.Let’s work together."
+		bio = "**My name is Krista Simmons** I’m a freelance web developer, web designer based in San Diego. My passions lie within music, technology and basically everything involving the internet. My technical skills include experience building custom websites for small to medium sized businesses. Currently my toolbelt consists of PHP, HTML, CSS, jQuery, Ruby on Rails and Content Management Systems like Wordpress and Shopify. I also have User Experience (UX) design and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients. Let’s work together."
 
 		[[params.about.skills]]
-			name = "Communication"
-			value = 9
-
-		[[params.about.skills]]
-			name = "Organization"
+			name = "HTML/CSS"
 			value = 7
 
 		[[params.about.skills]]
-			name = "Learning"
-			value = 10
+			name = "Javascript"
+			value = 5
+
+		[[params.about.skills]]
+			name = "Ruby on Rails"
+			value = 4
 
 		[[params.about.skills]]
 			name = "Teaching"
@@ -67,16 +67,16 @@ theme = "hugo-artists-theme"
 			value = 7
 
 		[[params.about.skills]]
-			name = "Visual Design"
+			name = "Wordpress"
+			value = 7
+
+		[[params.about.skills]]
+			name = "PHP"
 			value = 5
 
 		[[params.about.skills]]
-			name = "UX Design"
-			value = 8
-
-		[[params.about.skills]]
-			name = "Programming"
-			value = 6
+			name = "Hustle"
+			value = 10
 
 	# Contact secion
 	[params.contact]
