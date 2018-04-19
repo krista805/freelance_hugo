@@ -1,5 +1,5 @@
 # Site settings
-baseurl = ""
+baseurl = "http://www.kristasimmons.io"
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
@@ -52,19 +52,16 @@ theme = "hugo-artists-theme"
 
 		[[params.about.skills]]
 			name = "Javascript"
-			value = 5
+			value = 4
 
 		[[params.about.skills]]
 			name = "Ruby on Rails"
 			value = 4
 
-		[[params.about.skills]]
-			name = "Teaching"
-			value = 6
 
 		[[params.about.skills]]
-			name = "Planning"
-			value = 7
+			name = "eCommerce Development"
+			value = 2
 
 		[[params.about.skills]]
 			name = "Wordpress"
@@ -72,7 +69,11 @@ theme = "hugo-artists-theme"
 
 		[[params.about.skills]]
 			name = "PHP"
-			value = 5
+			value = 4
+
+		[[params.about.skills]]
+			name = "Google Search"
+			value = 10
 
 		[[params.about.skills]]
 			name = "Hustle"

@@ -24,6 +24,10 @@ audio:not([controls]) {
 a {
   background: 0 0; }
 
+a:focus {
+    outline:0;
+}
+
 a:active, a:hover {
   outline: 0; }
 
@@ -991,6 +995,10 @@ article.work {
     .work-container .work-return:hover {
       opacity: 1; }
 
+    .work-container .project-load main section.container {
+        max-width:750px;
+    }
+
 @media (max-width: 740px) {
   .work-container .work-return {
     left: 0px; }
@@ -1337,8 +1345,17 @@ section.blog {
 }
 
 /*blog single*/
+.sub-header {
+    padding-bottom: 15px;
+}
+
 .blog-single a {
     color: #52CCBA;
+}
+
+.blog-single img {
+    max-width: 100%;
+    height: auto;
 }
 
 section.content .pagination {

@@ -22,13 +22,13 @@ title = "Work"
     folder = "proj-5"
 
 [[projects]]
-    name = "Wather Dashboard"
+    name = "Weather Dashboard"
     folder = "proj-6"
 
 [[projects]]
-    name = "jQuery Hi Lo Game"
+    name = "jQuery Hi-Lo Game"
     folder = "proj-7"
 
-[[projects]]
-    name = "Stripes & Co"
-    folder = "proj-8"
+# [[projects]]
+#     name = "Stripes & Co"
+#     folder = "proj-8"

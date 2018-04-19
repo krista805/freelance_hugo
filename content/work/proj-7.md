@@ -2,7 +2,3 @@ This Hi-Lo Game was created with jQuery and Javascript. A user is given 7 tries 
 <a href="https://github.com/krista805/HiLo-Game" target="_blank">View code on GitHub</a>
 
 ![Weather Dashboard](img/work/proj-7/img0.jpg)
-![Weather Dashboard](img/work/proj-7/img1.jpg)
-![Weather Dashboard](img/work/proj-7/img2.jpg)
-![Weather Dashboard](img/work/proj-7/img3.jpg)
-![Weather Dashboard](img/work/proj-7/img4.jpg)
