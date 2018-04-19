@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "http://www.kristasimmons.io"
+baseurl = "https://www.kristasimmons.io"
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
