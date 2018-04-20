@@ -1,7 +1,8 @@
 <section class="alt-section section-work">
-    {{ with .Site.Data.work.title }}<h3 id="work">{{ . }}</h3>{{ end }}
+    <h3 id="work"><a href="https://portfolium.com/krista_simmons/portfolio" target="_blank">Check out my latest work on Portfolium</a></h3>
+    <!-- {{ with .Site.Data.work.title }}<h3 id="work">{{ . }}</h3>{{ end }} -->
 
-    {{ range .Site.Data.work.projects }}
+    <!-- {{ range .Site.Data.work.projects }}
     <input type="radio" name="trigger" class="trigger" id="{{ .folder }}" />
     {{ end }}
     <input type="radio" name="trigger" id="return" class="return" />
@@ -29,12 +30,12 @@
                 <div class="project-load"></div>
                 <noscript>
                     {{ range .Site.Data.work.projects }}
-                    <div class="noscript" id="content-{{ . }}">
+                    <div class="noscript" id="content-{{ .folder }}">
                         <h4 class="project-title">{{ .name }}</h4>
                     </div>
                     {{ end }}
                 </noscript>
             </div>
         </div>
-    </div>
+        </div> -->
 </section>
