@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://www.kristasimmons.io"
+baseurl = "https://www.kristasimmons.io/"
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
@@ -99,9 +99,6 @@ theme = "hugo-artists-theme"
 			icon = "linkedin"
 			link = "//www.linkedin.com/in/krista-simmons/"
 
-	[params.blog]
-		title= "Blog"
-		url  = "/#blog"
 
 
 	[params.form]
@@ -112,6 +109,9 @@ theme = "hugo-artists-theme"
 		message = "Tell me about your project"
 		buttonText = "Send"
 
+	[params.blog]
+		title= "Blog"
+		url  = "/#blog"
 
 	[params.footer]
 		copyright = "Krista Simmons 2018"
