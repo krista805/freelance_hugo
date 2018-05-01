@@ -22,3 +22,10 @@ logo   = "organik_logo.jpg"
     title  = "Senior Manager, Computer Futures"
     quote  = "**Krista was an absolutely fantastic hire.** She is a bundle of energy, great positive attitude, hard worker and went out of her way to learn new skills and learn from experience. She performed very well in a start up venture environment and although it was sad to see her leave, the decision she made was for the best of her career and she will be a huge value add to any future employers."
     logo   = "cf_logo.jpg"
+
+[[list]]
+    avatar = "organik_cameron.jpg"
+    name   = "Cameron Hermens"
+    title  = "Lead Web Developer, Organik SEO"
+    quote  = "**During her time at Organik SEO**, Krista demonstrated a passion for web development and a strong desire to continually learn and grow. Despite having modest experience in WordPress development when she arrived, Krista showcased an exemplary ability to learn best practices and new programming techniques with ease. We were able to provide her with minimal project management guidance and she was able to develop elegant solutions for a variety of clients and problem solving challenges.I highly recommend Krista as a full stack web developer, and encourage anyone looking for an individual with a passion for the work she does to strongly consider her."
+    logo   = "organik_logo.jpg"
