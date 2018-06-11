@@ -1,8 +1,8 @@
 <section class="alt-section section-work">
-    <h3 id="work"><a href="https://portfolium.com/krista_simmons/portfolio" target="_blank">Check out my latest work on Portfolium</a></h3>
-    <!-- {{ with .Site.Data.work.title }}<h3 id="work">{{ . }}</h3>{{ end }} -->
-
-    <!-- {{ range .Site.Data.work.projects }}
+    <!-- <h3 id="work"><a href="https://portfolium.com/krista_simmons/portfolio" target="_blank">Check out my latest work on Portfolium</a></h3> -->
+    {{ with .Site.Data.work.title }}<h3 id="work">{{ . }}</h3>{{ end }} 
+    
+    {{ range .Site.Data.work.projects }}
     <input type="radio" name="trigger" class="trigger" id="{{ .folder }}" />
     {{ end }}
     <input type="radio" name="trigger" id="return" class="return" />
@@ -37,5 +37,5 @@
                 </noscript>
             </div>
         </div>
-        </div> -->
+        </div>
 </section>

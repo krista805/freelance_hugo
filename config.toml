@@ -4,6 +4,8 @@ languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
 
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+
 [params]
 
 	# You can use Markdown syntax for urls [text](//url.to/source) for
@@ -98,6 +100,7 @@ theme = "hugo-artists-theme"
 		[[params.contact.social]]
 			icon = "linkedin"
 			link = "//www.linkedin.com/in/krista-simmons/"
+	
 
 
 
