@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
-
   {{ if eq .Section "blog"}}
       {{ partial "head.html" . }}
       {{ partial "header.html" . }}
@@ -41,6 +38,4 @@
         {{ if eq .Section "blog"}}
           {{ partial "footer.html" . }}
         {{ end }}
-  
     </main> 
-</html>
