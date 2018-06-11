@@ -46,14 +46,14 @@ function workBelt() {
 
 function  workLoad() {
   
-  $.ajaxSetup({ cache: true, url:'https://www.kristasimmons.io'});
+  $.ajaxSetup({ cache: true });
   
   $('.thumb-container label').click(function() {
     var $this = $(this),
         newTitle = $this.find('strong').text(),
         newfolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = 'work/'+ newfolder;
+        newHTML = 'https://www.kristasimmons.io/work/'+ newfolder;
       
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
