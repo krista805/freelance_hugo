@@ -62,8 +62,8 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 
 
 		[[params.about.skills]]
-			name = "eCommerce Development"
-			value = 2
+			name = "Shopify"
+			value = 5
 
 		[[params.about.skills]]
 			name = "Wordpress"
