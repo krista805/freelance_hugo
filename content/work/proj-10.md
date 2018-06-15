@@ -1,0 +1,6 @@
+Built with CSS Grid. A dream board (or vision board) is a visual tool that serves as a visual representation of your dreams and your ideal life
+<a href="http://www.kristasimmons.io/Dream-Board/" target="_blank">View demo site</a>
+<br>
+<a href="https://github.com/krista805/Dream-Board" target="_blank">View code on GitHub</a>
+
+![Visit Ventura](img/work/proj-10/dream_board.jpg)

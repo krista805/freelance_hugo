@@ -1,4 +1,6 @@
-This Hi-Lo Game was created with jQuery and Javascript. A user is given 7 tries to guess the computer generated number from 1-100. Each time the player clicks the "Submit Guess" button, it will print out the number of tries left at the bottom of the game screen page.
-<a href="https://github.com/krista805/HiLo-Game" target="_blank">View code on GitHub</a>
+Here I built out a responsive landing page using a sass/gulp workflow. I decided to develop a travel landing page for my hometown, Ventura California.
+<a href="https://www.kristasimmons.io/visit_ventura/" target="_blank">View demo site</a>
+<br>
+<a href="https://github.com/krista805/visit_ventura" target="_blank">View code on GitHub</a>
 
-![Weather Dashboard](img/work/proj-7/img0.jpg)
+![Visit Ventura](img/work/proj-8/ventura_landing.jpg)

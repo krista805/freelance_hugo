@@ -29,6 +29,14 @@ title = "Work"
     name = "jQuery Hi-Lo Game"
     folder = "proj-7"
 
-# [[projects]]
-#     name = "Stripes & Co"
-#     folder = "proj-8"
+[[projects]]
+     name = "Visit Ventura"
+     folder = "proj-8"
+
+[[projects]]
+     name = "theAgency Landing Page"
+     folder = "proj-9"
+
+[[projects]]
+     name = "Dream Board"
+     folder = "proj-10"
