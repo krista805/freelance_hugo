@@ -86,9 +86,9 @@ Once the theme is downloaded and the Git repository has been initialized, go ahe
 
 Go ahead and add all the files with:
 
-    git add --all and
-
-make a commit with:
+    git add --all 
+    
+Then make a commit with:
 
     git commit -m "enter your first commit message here"
 

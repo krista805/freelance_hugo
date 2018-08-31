@@ -40,3 +40,7 @@ title = "Work"
 [[projects]]
      name = "Dream Board"
      folder = "proj-10"
+
+[[projects]]
+     name = "Custom Shopify Store"
+     folder = "proj-11"
