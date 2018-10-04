@@ -1,5 +1,6 @@
 {{ "<!-- Header section -->" | safeHTML }}
 <header id="header">
+    <a href="{{.Site.BaseURL}}"><span class="logo"></span></a>
     <nav>
         {{ with .Site.Params.about.title }}<a href="/#about-me">{{ . }}</a>{{ end }}
         {{ with .Site.Data.work.title }}<a href="/#work">{{ . }}</a>{{ end }}
