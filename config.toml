@@ -3,6 +3,7 @@ baseurl = "https://www.kristasimmons.io/"
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
+googleAnalytics = "UA-128577344-1"
 
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
@@ -35,10 +36,10 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 	# To change the header background the 'hero-bg-jpg' at 'static/img'.
 	# Do the same with the logo ('logo.svg').
 	# But keep the original filename!
+
 	[params.header]
 		title = "Krista Simmons"
 		shortBio = " Full STack Web Developer // UX Designer"
-
 
 	# About section
 	#

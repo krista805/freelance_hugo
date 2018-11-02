@@ -2,7 +2,8 @@
 <html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
 	<head>
 		{{ partial "head.html" . }}
-		<meta name="google-site-verification" content="WT9t7m8zNZjBVShak_D2DF00Nf38IiqJ-eK-dzcGt5I" />
+		<!-- <meta name="google-site-verification" content="WT9t7m8zNZjBVShak_D2DF00Nf38IiqJ-eK-dzcGt5I" /> -->
+		{{ template "_internal/google_analytics.html" . }}
 	</head>
 		{{ partial "body-top" . }}
 	<body>
