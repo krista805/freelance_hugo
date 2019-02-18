@@ -1,9 +1,9 @@
 # Site settings
 baseurl = "https://www.kristasimmons.io/"
+googleAnalytics = "UA-128577344-1"
 languageCode = "en-us"
 title = "Freelance Web Developer"
 theme = "hugo-artists-theme"
-googleAnalytics = "UA-128577344-1"
 
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 
