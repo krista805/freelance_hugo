@@ -1,2 +1,16 @@
-Helped build out Organik SEO's new website. Involved in building out custom post type
-![Marketing Agency](img/work/proj-2/organikseo_landing.jpg)
+I had the opportunity to build out the UI for a marketing anomaly detection project at Agency73. I had previously expressed interest in bettering my skills in a JavaScript framework, and fortunate enough, Agency73 wanted me to code out this project’s UI. We decided to use Vue.JS as the front-end framework.
+
+Without getting into too much into detail, the primary objective of this project was to create a proof of concept machine learning-based tool that would:
+
+- take a tightly scoped set of data to create a basic console for managing a company’s KPI’s/ metrics
+- visualizing data through graphs, maps and charts
+- automatically highlight anomalies in the data.
+
+We utilized the Google Analytics API to fetch real-time reports, goals and data.
+
+My main task was to build out 8 different dashboard views, including a home dashboard, a KPI detailed template with charts and maps, and a “set an alert” template. I loved working on the Vue framework. Its component-based structure makes it well organized and easy to navigate through. It’s a good introductory JavaScript framework based on the fact it uses HTML syntax.
+![View of KPI dashboard](img/work/proj-2/dashboard_example.png)
+
+I never thought I would have so much fun using the Google Analytics API. It is such a powerful API, and it was so cool being able to pull in data from Google Analytics and have it visualized in a chart/map on our KPI template via the amCharts Javascript library.
+
+This project was a great learning experience, and it was such a pleasure working alongside a senior data architect and backend developer. I decided to further my knowledge in Vue JS and look forward to showcasing my upcoming projects using this great framework. Stay tuned.

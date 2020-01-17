@@ -55,12 +55,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 
 		[[params.about.skills]]
 			name = "Javascript"
-			value = 4
-
-		[[params.about.skills]]
-			name = "Ruby on Rails"
-			value = 4
-
+			value = 5
 
 		[[params.about.skills]]
 			name = "Shopify"
@@ -69,14 +64,22 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 		[[params.about.skills]]
 			name = "Wordpress"
 			value = 7
-
+		
 		[[params.about.skills]]
 			name = "PHP"
+			value = 5
+
+		[[params.about.skills]]
+			name = "Ruby on Rails"
 			value = 4
 
 		[[params.about.skills]]
-			name = "Google Search"
-			value = 10
+			name = "Web Accessibility/ADA Compliance"
+			value = 7
+		
+		[[params.about.skills]]
+			name = "Web Optimization"
+			value = 7
 
 		[[params.about.skills]]
 			name = "Hustle"

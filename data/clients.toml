@@ -7,6 +7,7 @@ name   = "Julien Brandt"
 title  = "CEO, Organik SEO"
 quote  = "**Not only is Krista a talented front-end web developer** but she is also a great team player with a fantastic attitude. During Krista's time at Organik SEO she played a key roll in developing and deploying WordPress websites. She worked hand in hand with the rest of the Organik team to develop custom Wordpress themes, create UX audits, and improve existing client websites. She is also very adept and quick to learn anything that isn't already part of her skillset. Krista would be a great addition to any web design agency or company looking for a talented web designer and developer!"
 logo   = "organik_logo.jpg"
+alt    = "Organik SEO"
 
 [[list]]
     avatar = "scientist_micah.jpg"
@@ -14,6 +15,7 @@ logo   = "organik_logo.jpg"
     title  = "Senior Software Engineer, Scientist.com"
     quote  = "**Krista worked for Scientist.com as an intern during her final months at LEARN academy.** During her internship, she was responsible for implementing a shipment tracking mechanism in our messaging system. She faced many new challenges during the project and I was particularly impressed with her tenacity and creativity in overcoming them."
     logo   = "scientist_logo.jpg"
+    alt    = "Scientist.com"
 
 
 [[list]]
@@ -22,6 +24,7 @@ logo   = "organik_logo.jpg"
     title  = "Senior Manager, Computer Futures"
     quote  = "**Krista was an absolutely fantastic hire.** She is a bundle of energy, great positive attitude, hard worker and went out of her way to learn new skills and learn from experience. She performed very well in a start up venture environment and although it was sad to see her leave, the decision she made was for the best of her career and she will be a huge value add to any future employers."
     logo   = "cf_logo.jpg"
+    alt    = "Computer Futures"
 
 [[list]]
     avatar = "organik_cameron.jpg"
@@ -29,3 +32,4 @@ logo   = "organik_logo.jpg"
     title  = "Lead Web Developer, Organik SEO"
     quote  = "**During her time at Organik SEO**, Krista demonstrated a passion for web development and a strong desire to continually learn and grow. Despite having modest experience in WordPress development when she arrived, Krista showcased an exemplary ability to learn best practices and new programming techniques with ease. We were able to provide her with minimal project management guidance and she was able to develop elegant solutions for a variety of clients and problem solving challenges.I highly recommend Krista as a full stack web developer, and encourage anyone looking for an individual with a passion for the work she does to strongly consider her."
     logo   = "organik_logo.jpg"
+    alt    = "Organik SEO Logo"

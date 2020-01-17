@@ -6,7 +6,7 @@ title = "Work"
     folder = "proj-1"
 
 [[projects]]
-    name = "Custom Wordpress Build"
+    name = "Vue Application"
     folder = "proj-2"
 
 [[projects]]
@@ -48,3 +48,11 @@ title = "Work"
 [[projects]]
      name = "Agency73 Rebranding"
      folder = "proj-12"
+
+[[projects]]
+     name = "Shopify Landing Page"
+     folder = "proj-13"
+
+[[projects]]
+    name = "Custom Wordpress Build"
+    folder = "proj-14"
