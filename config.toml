@@ -47,7 +47,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 	[params.about]
 		title = "About me"
 		url= "/#about"
-		bio = "**My name is Krista Simmons** I’m a freelance web developer, web designer based in San Diego. My passions lie within music, technology and basically everything involving the internet. My technical skills include building custom Wordpress & Shopify websites for small to medium sized businesses. Currently my toolbelt consists of PHP, HTML, CSS, Javascript, jQuery, Ruby on Rails. I also have User Experience (UX) design and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients. Let’s work together."
+		bio = "**My name is Krista Simmons** I’m a freelance web developer and web designer based in San Diego. My passions lie within music, snowboarding, technology and basically everything involving the internet. My technical skills include (but not limited to) building custom Wordpress & Shopify websites for small to medium sized businesses. Currently my toolbelt consists of PHP, HTML, CSS, Javascript, jQuery, Ruby on Rails. From my time working at digital agencies, I have gained knowledge in User Experience (UX) design, ADA/Web Accessibility best practices and search engine optimization (SEO). My work as a freelance web developer stands apart because of my ability to explain and execute technical concepts simply, while maintaining a friendly & productive relationship with clients. Let’s work together."
 
 		[[params.about.skills]]
 			name = "HTML/CSS"
@@ -71,7 +71,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 
 		[[params.about.skills]]
 			name = "Ruby on Rails"
-			value = 4
+			value = 3
 
 		[[params.about.skills]]
 			name = "Web Accessibility/ADA Compliance"
@@ -121,4 +121,4 @@ disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use 
 		url  = "/#blog"
 
 	[params.footer]
-		copyright = "Krista Simmons 2018"
+		copyright = "Krista Simmons 2020"

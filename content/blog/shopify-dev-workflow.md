@@ -1,14 +1,13 @@
 +++
-date = "2018-04-06T12:23:46-07:00"
+date = "2019-12-10T15:16:54-06:00"
 title = "Shopify Theme Development Workflow"
-
 +++
 
 ![SHopify Partners](/img/blog/shopify_banner_img.jpg)
 
 This is a simple step-by-step workflow to set up a Shopify Development Environment from the command line. The idea is to keep a similar workflow to other dev environments. A similar workflow would mean managing the theme files locally by making changes and committing those changes with Git while running a command line tool to watch for changes and automatically update the theme on the Shopify store.
 
-This post is a brief primer on setting up your Shopify dev environment. Please check out the  [Shopify Partner's docs](https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-setting-up-a-local-shopify-theme-development-environment) for further details.
+This post is a brief primer on setting up your Shopify dev environment. Please check out the [Shopify Partner's docs](https://www.shopify.com/partners/blog/95401862-3-simple-steps-for-setting-up-a-local-shopify-theme-development-environment) for further details.
 
 ## Basic Installation from The Command line
 
@@ -41,7 +40,6 @@ This post is a brief primer on setting up your Shopify dev environment. Please c
             - "*~"
             - "config/settings_data.json"
 
-
 **5. Initialize Repo**
 
     git init
@@ -73,9 +71,10 @@ In Admin API Permissions, make sure the “Theme templates and theme assets” i
         theme_id: "live"
         store: YOUR-STORE.myshopify.com
 
-**10. Next you need to pull down the theme from Shopify**   
+**10. Next you need to pull down the theme from Shopify**
 
         theme download
+
 Note: If you receive an error saying you cannot load any valid environments, configure the theme like this before downloading the theme:
 
     Theme configure --password=[your-password] --store=[your-store.myshopify.com] -- example.myshopify.com password: add-password-in-config --themeid=[your-theme-id]
@@ -86,8 +85,8 @@ Once the theme is downloaded and the Git repository has been initialized, go ahe
 
 Go ahead and add all the files with:
 
-    git add --all 
-    
+    git add --all
+
 Then make a commit with:
 
     git commit -m "enter your first commit message here"
@@ -99,6 +98,7 @@ From here, you can now push up your code to a repo management platform such as G
 Watch will start a process that will watch your directory for changes and upload them to Shopify.
 
     theme watch
+
 or
 
 Upload will update all of the current file states to Shopify.
@@ -106,6 +106,7 @@ Upload will update all of the current file states to Shopify.
     theme upload
 
 ## Multiple Environment Configurations
+
 It's possible to create multiple environments for your Shopify store. This comes in handy, especially if you are looking to make changes in a development environment and have a separate production store to push these changes live. Each environment needs it's own Shopify store to in order to obtain separate private app credentials. Once you create a separate store, you must update the `config-example.yml` file to:
 
     SHARED: &SHARED
@@ -128,7 +129,6 @@ It's possible to create multiple environments for your Shopify store. This comes
         <<: *SHARED
         password: ADD_PASSWORD_HERE
         store: LIVE_STORE_NAME.myshopify.com
-
 
 Then you would specify which environment you want to watch for changes:
 

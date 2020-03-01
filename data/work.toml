@@ -22,11 +22,11 @@ title = "Work"
     folder = "proj-5"
 
 [[projects]]
-    name = "Weather Dashboard"
+    name = "DOM Dice Game"
     folder = "proj-6"
 
 [[projects]]
-    name = "jQuery Hi-Lo Game"
+    name = "Weather Dashboard"
     folder = "proj-7"
 
 [[projects]]
@@ -56,3 +56,7 @@ title = "Work"
 [[projects]]
     name = "Custom Wordpress Build"
     folder = "proj-14"
+
+[[projects]]
+    name = "Custom Shopify Store"
+    folder = "proj-15"
